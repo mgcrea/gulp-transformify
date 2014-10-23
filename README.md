@@ -1,6 +1,6 @@
-# gulp-streamify [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-streamify.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-streamify)
+# gulp-transformify [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-transformify.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-transformify)
 
-> Gulp streamify let's you easily use node libraries as stream transforms.
+> Gulp transformify let's you easily use node libraries as stream transforms.
 
 
 ## Getting Started
@@ -10,26 +10,26 @@ This plugin requires Gulp `^3.0.0`
 If you haven't used [Gulp](http://gulpjs.com/) before, be sure to check out the [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) guide, as it explains how to create a [Gulpfile](https://github.com/gulpjs/gulp/blob/master/docs/API.md) as well as install and use Gulp plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install gulp-streamify --save-dev
+npm install gulp-transformify --save-dev
 ```
 
 Once the plugin has been installed, it may be required inside your Gulpfile with this line of JavaScript:
 
 ```js
-var streamify = require('gulp-streamify');
+var transformify = require('gulp-transformify');
 ```
 
 
 ## Usage
 
 ```javascript
-var streamify = require('gulp-streamify');
+var transformify = require('gulp-transformify');
 
-// streamify handles both promises and sync output out of the box
-var jade = streamify(require('jade').render);
+// transformify handles both promises and sync output out of the box
+var jade = transformify(require('jade').render);
 
 var Promise = require('bluebird');
-var less = streamify(Promise.promisify(require('less').render));
+var less = transformify(Promise.promisify(require('less').render));
 ```
 
 ## Contributing
