@@ -4,7 +4,7 @@ var Promise = require('bluebird');
 var through = require('through2');
 var PluginError = require('gulp-util').PluginError;
 
-module.exports = function streamify(cb, name) {
+module.exports = function transformify(cb, name) {
   return function (config) {
     return through.obj(function(file, encoding, next) {
       Promise.bind(this)
