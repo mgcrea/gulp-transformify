@@ -1,28 +1,28 @@
 {
-  "name": "gulp-streamify",
+  "name": "gulp-transformify",
   "description": "stream transform factory",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "src/index.js",
-  "homepage": "https://github.com/mgcrea/gulp-streamify",
+  "homepage": "https://github.com/mgcrea/gulp-transformify",
   "author": {
     "name": "Olivier Louvignes",
     "email": "olivier@mg-crea.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mgcrea/gulp-streamify.git"
+    "url": "git://github.com/mgcrea/gulp-transformify.git"
   },
   "keywords": [
     "gulp",
     "angular"
   ],
   "bugs": {
-    "url": "https://github.com/mgcrea/gulp-streamify/issues"
+    "url": "https://github.com/mgcrea/gulp-transformify/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mgcrea/gulp-streamify/blob/master/LICENSE"
+      "url": "https://github.com/mgcrea/gulp-transformify/blob/master/LICENSE"
     }
   ],
   "engines": {
